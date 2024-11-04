@@ -1,0 +1,118 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header with contact info on the left and navigation on the right -->
+    <header>
+   
+
+        <div class="header-content">
+            <div class="contact-info">
+                <p>Radhika Loni</p>
+                <p>Email: radhikaloni1664@gmail.com</p>
+                <p>Phone: +91 7021193182</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#recommendations">Recommendations</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+        <!-- About section with photo and bio -->
+<section id="about">
+    <div class="about-container">
+        <img src="C:\Users\madhu\Downloads\Photo.jpeg" alt="Profile Photo" class="profile-photo">
+        <div class="bio">
+            <h2>Hi! I am Radhika Loni</h2>
+            <p> I am an aspiring full stack developer. I hold a bachelor's degree in Electronics and Telecommunication with honours in data science. I further aspire to particularly excel in front-end web and app designing. You are currently viewing my 1st ever webpage I have created for my Coursera course project.   </p>
+        </div>
+    </div>
+    </section>
+
+    
+
+    <section id="skills">
+    <h2 class="skills-title">Skills</h2>
+    <div class="skills-container">
+        <div class="skill-box">HTML <br> <br> <br> <br> <br> Moderate level</div>
+        <div class="skill-box">CSS <br> <br> <br> <br> <br> Moderate level </div>
+        <div class="skill-box">JavaScript <br> <br> <br> <br> <br> Moderate level </div>
+        <div class="skill-box">React <br> <br> <br> <br> <br> Beginner level </div>
+        <div class="skill-box">Java <br> <br> <br> <br> <br> Beginner level </div>
+        <div class="skill-box"> Node.js <br> <br> <br> <br> <br> Beginner level </div>
+    </div>
+</section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Academic Projects</h3>
+            <p> 1) Hartley Oscillator (Sem3) <br> 
+                2) Smart solar tracker and energy monitor (sem4) <br>
+                3) STM based energy alert message system (sem 5) <br>
+                4) Traffic light control system using CPLD krypton board (sem 6) <br>
+                5) Real-Time secure transmission of biomedical data: A cloud solution for IoMT (Final Year Project) <br>
+                </p>
+                <h3> Software Projects </h3>
+                <p>
+                1) Dummy portfolio website using HTML, CSS and Javascript for coursera course project.
+                </p>
+        </div>
+      
+
+   <section id="recommendations">
+    <h2 class="recommendations-title">Recommendations</h2>
+    <div class="recommendations-container">
+        <div class="recommendation-box">"An outstanding intern with exceptional problem-solving skills." - Supervisor</div>
+        <div class="recommendation-box">"A dedicated and proactive learner, always eager to take on new challenges." - Peer</div>
+        <div class="recommendation-box">"Consistently delivered high-quality work and showed great teamwork." - Project Lead</div>
+    </div>
+</section>
+
+   
+    
+    <section id="leave-recommendation">
+    <h2 class="recommendation-title">Leave a Recommendation</h2>
+    <form class="recommendation-form">
+        <div class="form-group">
+           
+            <input type="text" id="name" placeholder="Your Name">
+        </div>
+        <div class="form-group">
+           
+            <textarea id="message" placeholder="Your Recommendation" required></textarea>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+</section>
+
+<div class="iconbutton">
+    <a href="#home">
+      <!--Add the code here for the logo to appear and the icon to be actionable-->
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+<path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+</svg>
+
+<div id="thankYouModal" class="modal">
+    <div class="modal-content">
+        <span class="close-button" id="closeButton">&times;</span>
+        <p>Thank you for the recommendation!</p>
+    </div>
+</div>
+
+    <footer>
+        <p>Connect with me on <a href="#">LinkedIn</a> | <a href="#">GitHub</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

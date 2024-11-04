@@ -1,0 +1,233 @@
+header {
+    background-color: #007acc;
+    padding: 1rem;
+    color: white;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-info p {
+    margin: 0.2rem 0;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+
+nav ul li {
+    margin-left: 1.5rem; /* Adds spacing between navigation items */
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* About section styling remains the same */
+.about-container {
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.profile-photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-right: 2rem;
+    flex-shrink: 0;
+}
+
+.bio {
+    max-width: 600px;
+    flex: 1;
+    
+}
+
+.bio h2 {
+    color: #333;
+    margin-bottom: 0.5rem;
+    color: blue
+}
+
+.bio p {
+    line-height: 1.6;
+}
+/* Skills section styling */
+#skills {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.skills-title {
+    font-size: 1.8rem;
+    color: #333;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.skills-container {
+    display: flex;
+    gap: 1rem; /* Space between the skill boxes */
+}
+
+.skill-box {
+    
+    width: 150px; /* Fixed width to make it square */
+    height: 150px; /* Fixed height to match width */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 8px;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for effect */
+    border-radius: 8px;
+    border: 2px solid black; /* Black border */
+}
+
+/* Recommendations section styling */
+#recommendations {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.recommendations-title {
+    font-size: 1.8rem;
+    color: #333;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.recommendations-container {
+    display: flex; /* Align boxes in a single row */
+    justify-content: space-between; /* Distribute space between boxes */
+}
+
+.recommendation-box {
+    
+    width: 30%; /* Width set to 30% to fit three boxes side by side */
+    height: 100px; /* Fixed height for recommendations */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    border-radius: 8px;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for effect */
+    border: 2px solid black; /* Black border */
+}
+
+/* Leave a Recommendation section styling */
+#leave-recommendation {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.recommendation-title {
+    font-size: 1.8rem;
+    color: #333;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.recommendation-form {
+    background-color: #f9f9f9; /* Light background for the form */
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 1rem; /* Spacing between form elements */
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem; /* Spacing between label and input */
+    font-weight: bold;
+}
+
+input[type="text"],
+textarea {
+    width: 100%; /* Full width for inputs */
+    padding: 0.5rem;
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 4px; /* Rounded corners */
+    box-sizing: border-box; /* Include padding and border in total width */
+}
+
+textarea {
+    height: 100px; /* Set height for the textarea */
+}
+
+button {
+    background-color: #007acc; /* Button color */
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #005f99; /* Darker shade on hover */
+}
+/* Modal styles */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0, 0, 0, 0.5); /* Black w/ opacity */
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 300px; /* Could be more or less, depending on screen size */
+    text-align: center;
+    border-radius: 8px;
+}
+
+.close-button {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close-button:hover,
+.close-button:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
